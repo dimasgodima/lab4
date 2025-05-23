@@ -1,0 +1,32 @@
+.projects-section.grid-view .inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.projects-section.grid-view .inner > * {
+  flex-shrink: 0;
+  width: 32%;
+  margin-bottom: 30px;
+}
+
+.projects-section.list-view .inner {
+  display: block;
+}
+
+.projects-section.list-view .inner > * {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .projects-section.grid-view .inner > * {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects-section.grid-view .inner > * {
+    width: 100%;
+  }
+}

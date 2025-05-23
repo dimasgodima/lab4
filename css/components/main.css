@@ -1,0 +1,30 @@
+@import "/css/components/container.css";
+@import "/css/components/logo.css";
+@import "/css/components/nav.css";
+@import "/css/components/social-list.css";
+@import "/css/components/header.css";
+@import "/css/components/title.css";
+
+
+@import "/css/components/section-hero.css.css";
+@import "/css/components/section.css";
+
+
+@import "/css/components/project-card.css";
+@import "/css/components/section-projects.css";
+
+
+@import "/css/components/footer.css";
+
+
+@import "/css/components/experience-card.css";
+@import "/css/components/tech-stack-section.css";
+
+@import "/css/components/label.css";
+@import "/css/components/button.css";
+@import "/css/components/input.css";
+@import "/css/components/form.css";
+
+@import "/css/components/select.css";
+@import "/css/pages/projects.css";
+@import "/css/components/toggle.css";

@@ -1,0 +1,48 @@
+footer { 
+  color: #42446E;;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin: 40px;
+}
+
+footer .nav{
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+} 
+
+footer .nav .list .item .link{
+  font-weight: 100;
+} 
+
+footer .nav .list .item {
+  margin-right: 50px;
+}
+
+
+@media (max-width: 480px) {
+  .info {
+    margin: 10px;
+    gap: 20px;
+    font-size: 14px;
+  }
+
+  footer .nav .list .item .link {
+    /* margin: 20px; */
+    font-size: 14px;
+  }
+
+  footer .nav .list .item {
+    margin-right: 30px;
+  }
+
+  footer .nav{
+    margin: 10px;
+  } 
+}
+
+

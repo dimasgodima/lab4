@@ -1,0 +1,28 @@
+.view-toggle {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #42446E;
+  white-space: nowrap;
+  border: 1px solid rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
+
+  flex-shrink: 0;
+}
+
+.view-toggle-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  background-image: url('/img/row.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.projects-section.list-view~.filters-container .view-toggle-icon {
+  background-image: url('/img/row.svg');
+}
