@@ -3,7 +3,7 @@
   padding: 13px 50px 13px 20px;
   width: 100%;
   background-color: #fff;
-  background-image: url("../../img/arrow-down.svg");
+  background-image: url('/img/arrow-down.svg');
   background-repeat: no-repeat;
   background-position: right 20px top 50%;
   background-size: 24px 24px;
